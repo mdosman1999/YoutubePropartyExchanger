@@ -14,6 +14,8 @@ body{
     align-items: center;
     padding: 0 36px;
     box-sizing: border-box;
+    position: fixed;
+    z-index: 9999999999;
 }
 
 .logoSection a{
@@ -55,10 +57,10 @@ body{
     margin-left: 6px;
 } */
 
-.manuBar a .login:hover {
+/* .manuBar a .login:hover {
     background-color: #d3a937;
     border-radius: 30px;
-}
+} */
 
 .register{
     border-radius: 63px;
@@ -155,6 +157,11 @@ p.level {
     align-items: center;
 }
 
+.enrol:hover{
+    box-shadow: 3px 3px 8px 0px #ed2a7b;
+    transition:all 600ms;
+}
+
 .enrol img{
     max-width: 30px;
     margin-left: 50px;
@@ -231,8 +238,78 @@ p.level {
     bottom: 42px;
     left: 50%;
 }
+.Edgebtn:hover{
+    box-shadow: 3px 3px 8px 0px #ed2a7b;
+    transition:all 600ms;
+}
 
 .Edgebtn img{
+    max-width: 30px;
+    margin-left: 50px;
+}
+
+/* shortSection2 */
+
+/* .shortSectionback2{
+    background: url("../img/4069130.jpg");
+    background-size: cover;
+} */
+
+.shortSection2{
+    background: rgba(212, 0, 255, 0.397);
+    background: linear-gradient(1deg, #fffffff7, rgba(212, 0, 255, 0.397));
+    backdrop-filter: blur(20px);
+    padding: 5% 0;
+    color: rgb(0, 0, 0);
+    position: relative;
+    padding-bottom: 156px;
+}
+.shortSection2 h1{
+    text-align: center;
+    font-size: 86px;
+    font-family: cursive;
+    margin-top: -33px;
+    text-transform: lowercase;
+    line-height: 90px;
+}
+
+.Screenshot2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.Screenshot2 img{
+    margin: 10px;
+    max-width: 50%;
+}
+.Screenshot2 video{
+    margin: 10px;
+    width: 50%;
+    box-shadow: -5px 15px 20px 0px;
+    border-radius: 20px;
+}
+.Edgebtn2{
+    text-decoration: none;
+    padding: 19px 40px !important;
+    border-radius: 44px;
+    background: #ffffff;
+    color: #000000;
+    font-family: tahoma;
+    font-size: 26px;
+    position: absolute;
+    transform: translate(-50%, 0px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 42px;
+    left: 50%;
+}
+.Edgebtn2:hover{
+    box-shadow: 3px 3px 8px 0px #ed2a7b;
+    transition:all 600ms;
+}
+.Edgebtn2 img{
     max-width: 30px;
     margin-left: 50px;
 }
@@ -241,7 +318,7 @@ p.level {
 
 .footersection{
     background: url("../img/pngwing.com (10).png");
-    background-size: 100%;
+    background-size: cover;
     color: #000000;
     padding: 45px;
     justify-content: space-around;
@@ -299,3 +376,12 @@ hr{
     height: auto;
     padding: 15px;
 }
+
+@media screen and (max-width: 740px) {
+    /* body {
+        margin: 0;
+        padding: 0;
+        background: #ffffff;
+        width: 144%;
+    } */
+  }
