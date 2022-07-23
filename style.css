@@ -16,6 +16,7 @@ body{
     box-sizing: border-box;
     position: fixed;
     z-index: 9999999999;
+    box-shadow: 1px 4px 6px 1px #00000047;
 }
 
 .logoSection a{
@@ -158,7 +159,7 @@ p.level {
 }
 
 .enrol:hover{
-    box-shadow: 3px 3px 8px 0px #ed2a7b;
+    box-shadow: 7px 7px 8px 0px #0000006e;
     transition:all 600ms;
 }
 
@@ -239,7 +240,7 @@ p.level {
     left: 50%;
 }
 .Edgebtn:hover{
-    box-shadow: 3px 3px 8px 0px #ed2a7b;
+    box-shadow: 7px 7px 8px 0px #0000006e;
     transition:all 600ms;
 }
 
@@ -286,7 +287,7 @@ p.level {
 .Screenshot2 video{
     margin: 10px;
     width: 50%;
-    box-shadow: -5px 15px 20px 0px;
+    box-shadow: -5px 15px 20px 0px #0000005e;
     border-radius: 20px;
 }
 .Edgebtn2{
@@ -306,7 +307,7 @@ p.level {
     left: 50%;
 }
 .Edgebtn2:hover{
-    box-shadow: 3px 3px 8px 0px #ed2a7b;
+    box-shadow: 7px 7px 8px 0px #0000006e;
     transition:all 600ms;
 }
 .Edgebtn2 img{
